@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Muhamad Firman Hidayat — Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav-wrap">
+    <div class="nav">
+      <a href="#home" class="brand">
+        <span class="brand-mark">FH</span>
+        <span class="brand-text">firmanh38<span class="dim">.dev</span></span>
+      </a>
+      <span class="nav-status"><span class="status-dot"></span>Open to work</span>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Buka menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Kemampuan</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header id="home" class="hero">
+
+    <div class="badge-zone">
+      <canvas id="ropeCanvas" aria-hidden="true"></canvas>
+      <p class="badge-hint"><span class="hint-icon">↕</span> Tarik &amp; lepas kartunya</p>
+      <div id="badge" class="badge" tabindex="0" aria-label="Kartu ID yang bisa diseret, mainkan gantungannya">
+        <div class="badge-shine" aria-hidden="true"></div>
+        <div class="badge-hole"></div>
+        <div class="badge-chip" aria-hidden="true"></div>
+        <div class="badge-photo-wrap">
+          <img class="badge-photo" src="gua.png" loading="lazy">
+        </div>
+        <div class="badge-stripe"></div>
+        <div class="badge-body">
+          <p class="badge-name">FIRMAN HIDAYAT</p>
+          <p class="badge-role">FULL&#8209;STACK DEVELOPER</p>
+          <!--<div class="badge-id">ID// FE-2026-0417</div>
+          <div class="badge-barcode" aria-hidden="true"></div>-->
+          <p class="badge-access">AKSES: ALL&#8209;ACCESS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-copy">
+      <p class="eyebrow">// status: open-to-work</p>
+      <h1>Membangun produk &amp; sistem — dari sirkuit ide sampai kode produksi.</h1>
+      <p class="hero-sub">Full&#8209;Stack Developer yang senang mengubah masalah nyata menjadi perangkat lunak yang rapi, cepat, dan enak dipakai.</p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+        <a href="#contact" class="btn btn-ghost">Hubungi Saya</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section reveal">
+      <p class="eyebrow">// tentang-saya</p>
+      <h2>Tentang</h2>
+      <div class="about-grid">
+        <p class="about-text">
+          Saya seorang pengembang perangkat lunak yang fokus pada produk web modern —
+          mulai dari merancang antarmuka, membangun API, sampai memastikan sistem tetap
+          stabil saat dipakai banyak orang. Saya suka kerja dari nol: menyusun ide jadi
+          arsitektur, lalu jadi kode yang bisa dipercaya.
+        </p>
+        <div class="stat-row">
+          <div class="stat-chip"><span class="stat-num">3+</span><span class="stat-label">tahun pengalaman</span></div>
+          <div class="stat-chip"><span class="stat-num">20+</span><span class="stat-label">proyek selesai</span></div>
+          <div class="stat-chip"><span class="stat-num">10</span><span class="stat-label">teknologi utama</span></div>
+        </div>
+      </div>
+      <div class="tech-row" aria-label="Tech stack utama">
+        <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+        <i class="devicon-typescript-plain colored" title="TypeScript"></i>
+        <i class="devicon-react-original colored" title="React"></i>
+        <i class="devicon-nodejs-plain colored" title="Node.js"></i>
+        <i class="devicon-python-plain colored" title="Python"></i>
+        <i class="devicon-postgresql-plain colored" title="PostgreSQL"></i>
+        <i class="devicon-docker-plain colored" title="Docker"></i>
+        <i class="devicon-amazonwebservices-plain-wordmark colored" title="AWS"></i>
+        <i class="devicon-git-plain colored" title="Git"></i>
+        <i class="devicon-figma-plain colored" title="Figma"></i>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <p class="eyebrow">// komponen</p>
+      <h2>Kemampuan &amp; Tools</h2>
+      <div class="chip-grid">
+        <div class="chip"><span class="chip-ref">U1</span><i class="devicon-javascript-plain colored chip-icon"></i>JavaScript</div>
+        <div class="chip"><span class="chip-ref">U2</span><i class="devicon-typescript-plain colored chip-icon"></i>TypeScript</div>
+        <div class="chip"><span class="chip-ref">U3</span><i class="devicon-react-original colored chip-icon"></i>React</div>
+        <div class="chip"><span class="chip-ref">U4</span><i class="devicon-nodejs-plain colored chip-icon"></i>Node.js</div>
+        <div class="chip"><span class="chip-ref">U5</span><i class="devicon-python-plain colored chip-icon"></i>Python</div>
+        <div class="chip"><span class="chip-ref">U6</span><i class="devicon-postgresql-plain colored chip-icon"></i>PostgreSQL</div>
+        <div class="chip"><span class="chip-ref">U7</span><i class="devicon-docker-plain colored chip-icon"></i>Docker</div>
+        <div class="chip"><span class="chip-ref">U8</span><i class="devicon-amazonwebservices-plain-wordmark colored chip-icon"></i>AWS</div>
+        <div class="chip"><span class="chip-ref">U9</span><i class="devicon-git-plain colored chip-icon"></i>Git</div>
+        <div class="chip"><span class="chip-ref">U10</span><i class="devicon-figma-plain colored chip-icon"></i>Figma</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <p class="eyebrow">// build-log</p>
+      <h2>Proyek Terpilih</h2>
+      <div class="project-grid">
+        <article class="term-card">
+          <div class="term-bar"><span></span><span></span><span></span><p>proyek-satu.app</p></div>
+          <div class="term-body">
+            <h3>Nama Proyek Satu</h3>
+            <p>Deskripsi singkat masalah yang diselesaikan proyek ini dan hasil/dampaknya.</p>
+            <div class="tag-row"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div>
+            <a href="#" class="term-link">$ open project →</a>
+          </div>
+        </article>
+
+        <article class="term-card">
+          <div class="term-bar"><span></span><span></span><span></span><p>proyek-dua.app</p></div>
+          <div class="term-body">
+            <h3>Nama Proyek Dua</h3>
+            <p>Deskripsi singkat masalah yang diselesaikan proyek ini dan hasil/dampaknya.</p>
+            <div class="tag-row"><span>Next.js</span><span>TypeScript</span><span>AWS</span></div>
+            <a href="#" class="term-link">$ open project →</a>
+          </div>
+        </article>
+
+        <article class="term-card">
+          <div class="term-bar"><span></span><span></span><span></span><p>proyek-tiga.app</p></div>
+          <div class="term-body">
+            <h3>Nama Proyek Tiga</h3>
+            <p>Deskripsi singkat masalah yang diselesaikan proyek ini dan hasil/dampaknya.</p>
+            <div class="tag-row"><span>Python</span><span>Docker</span><span>GraphQL</span></div>
+            <a href="#" class="term-link">$ open project →</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal">
+      <p class="eyebrow">// hubungi</p>
+      <h2>Mari terhubung</h2>
+      <div class="term-card contact-card">
+        <div class="term-bar"><span></span><span></span><span></span><p>contact.sh</p></div>
+        <div class="term-body mono">
+          <p><span class="prompt">visitor@portofolio</span>:~$ whoami</p>
+          <p class="out">&gt; Muhamad Firman Hidayat — Full-Stack Developer</p>
+          <p><span class="prompt">visitor@portofolio</span>:~$ cat contact.txt</p>
+          <p class="out">&gt; email: <a href="mailto:firman.hidayat@email.com">firman.hidayat@email.com</a></p>
+          <p class="out">&gt; github: <a href="https://github.com/firmanhidayat" target="_blank" rel="noopener">github.com/firmanhidayat</a></p>
+          <p class="out">&gt; linkedin: <a href="https://linkedin.com/in/firmanhidayat" target="_blank" rel="noopener">linkedin.com/in/firmanhidayat</a></p>
+          <p><span class="prompt">visitor@portofolio</span>:~$ <span class="cursor">_</span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Muhamad Firman Hidayat. Dibangun dengan HTML, CSS &amp; JS murni.</p>
+    <a href="#home">kembali ke atas ↑</a>
+  </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
